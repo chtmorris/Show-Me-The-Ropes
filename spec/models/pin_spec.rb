@@ -2,6 +2,21 @@ require 'spec_helper'
 
 describe Pin do
 
+  it "is valid with a lat and long"
+  it "is invalid without a lat and long"
+  it "is valid with a guide_id"
+  it "is invalid without a guide_id"
+  it "is valid with an activity"
+  it "is invalid without an activity"
+  it "is valid with a description"
+  it "is invalid without a description"
+
+  describe "Pin clicks" do
+    context "rookie clicks on pin" do
+      it
+    end
+  end
+
   describe "Pin drops" do
     context "guide clicks map after add pin button" do
       it "should add one new pin on map, with correct click location"
