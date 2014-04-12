@@ -37,9 +37,8 @@ ShowMeTheRopes::Application.routes.draw do
     resources :guide_messages, defaults: {format: :json} do
       get ':id' => "guide_messages#show", on: :collection
     end
-
-
-
   end
+
+  get     'register'    =>  'register#index'
 
 end
