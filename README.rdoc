@@ -1,29 +1,5 @@
-== README
+== SHOW ME THE ROPES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This a project that three of us created to help match people who are willing to guide others in the great outdoors, with those looking to be guided.  Guiding can be across an a range of sports and disciplines.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-Charlie test push
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This site uses Rails, Google Maps, Handlebars and Angular
